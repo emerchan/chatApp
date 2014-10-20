@@ -10,7 +10,7 @@ Template.messages.messages = function () {
  
 Template.input.events = {
     'click a#send': function (event) {
-        var name = Meteor.user().profile.name;
+        //var name = Meteor.user().profile.name;
         var message = document.getElementById('message').value;
  
         if (message != '') {
